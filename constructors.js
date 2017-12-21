@@ -17,5 +17,5 @@ var AlternativePoint = /** @class */ (function () {
 // alternativePoint.draw(); // TypeError: Cannot read property 'draw' of undefined
 // we have to allocate memory
 // creating a instance of a class (object)
-var alternativePoint = new AlternativePoint(10);
+var alternativePoint = new AlternativePoint(10, 20);
 alternativePoint.draw(); // X: 10 Y: 20

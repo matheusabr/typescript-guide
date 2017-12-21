@@ -21,8 +21,9 @@ class AccPoint {
 let accPoint = new AccPoint(10, 20);
 accPoint.draw(); // X: 10 Y: 20
 
-// Alternative way to protect 
-// by prefixing access
+
+// An alternative way to protect 
+// by prefixing access modifiers
 // public (default), private, protected
 class AlternativeAccPoint {
 

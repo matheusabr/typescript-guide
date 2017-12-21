@@ -1,6 +1,7 @@
 var number = 1;
 // let was introduced by ES6 (ES 2015)
 var count = 5;
+// Var
 function testVar() {
     // var is scoped by nearest function
     for (var index = 0; index < 10; index++) {
@@ -9,6 +10,7 @@ function testVar() {
     console.log('Finally: ' + index);
 }
 testVar();
+// Let
 function testLet() {
     // let is scoped by nearest block
     for (var index = 0; index < 10; index++) {
